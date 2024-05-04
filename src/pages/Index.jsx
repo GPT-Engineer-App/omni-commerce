@@ -31,9 +31,7 @@ const Index = () => {
           Our Services
         </Heading>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
-          <ServiceCard icon={FaGlobe} title="Website Creation" description="Build your online presence with our expert design and development.">
-            <Box as="video" src="https://via.placeholder.com/500x300.mp4?text=Code+Writing+Video" autoPlay loop muted width="100%" mt={4} />
-          </ServiceCard>
+          <ServiceCard icon={FaGlobe} title="Website Creation" description="Build your online presence with our expert design and development." />
           <ServiceCard icon={FaPlayCircle} title="Video/Image Production" description="Create stunning visuals that captivate and engage." />
           <ServiceCard icon={FaRocket} title="AI Integration" description="Leverage AI to streamline operations and enhance efficiency." />
         </SimpleGrid>
@@ -48,7 +46,6 @@ const Index = () => {
           <Text maxWidth="container.md" textAlign="center" mt={4}>
             At Omnist, we embrace universal values and strive to provide services that cater to a global audience. Our approach integrates diverse perspectives and innovative solutions.
           </Text>
-          <Image src="https://via.placeholder.com/500x300?text=Team+Writing+Code" alt="Team Writing Code" mt={4} />
         </Container>
       </Box>
 
