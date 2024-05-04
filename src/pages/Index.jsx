@@ -7,7 +7,7 @@ const Index = () => {
       {/* Hero Section */}
       <Box position="relative" height="70vh" overflow="hidden">
         <video autoPlay loop muted style={{ width: "100%", height: "100%", objectFit: "cover" }}>
-          <source src="https://example.com/hero-video.mp4" type="video/mp4" />
+          <source src="https://assets.example.com/videos/coding.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <VStack position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" spacing={4} textAlign="center">
