@@ -5,14 +5,11 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Hero Section */}
-      <Box position="relative" height="70vh" overflow="hidden">
-        <video autoPlay loop muted style={{ width: "100%", height: "100%", objectFit: "cover" }}>
-          <source src="https://assets.example.com/videos/coding.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <Box position="relative" height="70vh" bg="gray.200">
+        <Image src="https://images.unsplash.com/photo-1705747894529-df18ecf5025e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzZXJlbmUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzE0ODQ5MjcyfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Hero Image" objectFit="cover" width="100%" height="100%" />
         <VStack position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" spacing={4} textAlign="center">
           <Heading as="h1" size="2xl" color="white">
-            Empowering Your Business with Omnist Enterprises LLC
+            Empowering Your Business with Omnist Solutions
           </Heading>
           <Text fontSize="xl" color="gray.100">
             Website Creation, Content Production, AI Consultancy
