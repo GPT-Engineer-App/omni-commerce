@@ -52,7 +52,7 @@ const Index = () => {
       {/* Footer */}
       <Box bg="gray.800" color="white" py={5}>
         <Flex justifyContent="space-between" alignItems="center" px={10}>
-          <Text>&copy; {new Date().getFullYear()} Omnist Solutions</Text>
+          <Text>&copy; {new Date().getFullYear()} Omnist Enterprises LLC</Text>
           <Stack direction="row" spacing={4}>
             <Button as="a" href="#" variant="link" colorScheme="teal">
               Privacy Policy
